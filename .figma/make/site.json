@@ -1,0 +1,12 @@
+{
+  "title": "EvalDesk — AI-Assisted Answer Sheet Evaluation Platform",
+  "language": "en",
+  "description": "Helps university teachers evaluate answer sheets with verified grading suggestions and publish results, while students review scores, feedback, and recheck requests.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
