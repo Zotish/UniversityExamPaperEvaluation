@@ -641,7 +641,6 @@ export function GradingWorkspacePage({
               <div className="section-title">
                 <div>
                   <h3>Grade Audit History</h3>
-                  <p>Recorded score updates and approvals for this script</p>
                 </div>
               </div>
               <div className="activity-list">

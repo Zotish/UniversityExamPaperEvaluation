@@ -223,7 +223,6 @@ export function StudentRechecksPage({
             <div className="section-title">
               <div>
                 <h3>My Recheck Request History ({rechecks.length})</h3>
-                <p>Track status from Submitted → Under Review → Resolved / Rejected</p>
               </div>
             </div>
 

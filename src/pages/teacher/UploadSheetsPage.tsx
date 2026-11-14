@@ -346,10 +346,6 @@ export function UploadSheetsPage({
             <div className="section-title">
               <div>
                 <h3>Batch Processing Queue ({submissions.length})</h3>
-                <p>
-                  Verify student identity mappings before processing. Unmatched scripts require
-                  manual selection.
-                </p>
               </div>
               <Badge tone={unmappedCount > 0 ? "amber" : "green"}>
                 {unmappedCount > 0

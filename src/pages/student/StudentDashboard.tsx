@@ -99,7 +99,6 @@ export function StudentDashboard({
             <div className="section-title">
               <div>
                 <h3>Examination Results &amp; Status</h3>
-                <p>Only results verified and published by your instructor appear with marks</p>
               </div>
               <button onClick={() => go("studentResult")}>View all results →</button>
             </div>

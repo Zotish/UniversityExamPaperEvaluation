@@ -153,7 +153,6 @@ export function Shell({
               <Icon name="menu" />
             </button>
             <div>
-              {breadcrumb && <div className="topbar-crumb">{breadcrumb}</div>}
               <h2>{title}</h2>
             </div>
           </div>

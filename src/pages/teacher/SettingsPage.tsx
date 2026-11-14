@@ -173,7 +173,6 @@ export function SettingsPage({
         <div className="section-title">
           <div>
             <h3>Institutional Teacher ID Registry</h3>
-            <p>Only valid unclaimed Teacher IDs can be used to register a faculty account</p>
           </div>
         </div>
         <form onSubmit={handleIssueTeacherId} className="registry-form">
@@ -240,7 +239,6 @@ export function SettingsPage({
         <div className="section-title">
           <div>
             <h3>System Audit History</h3>
-            <p>Immutable log of examination creation, approvals, mark updates, and publication</p>
           </div>
         </div>
         {loading ? (

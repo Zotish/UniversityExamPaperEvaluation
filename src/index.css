@@ -305,10 +305,10 @@ main {
   grid-template-columns: repeat(3, 1fr);
 }
 .metric {
-  padding: 18px;
+  padding: 16px 18px;
   display: flex;
-  align-items: center;
-  gap: 14px;
+  flex-direction: column;
+  justify-content: center;
 }
 .metric-icon {
   width: 42px;

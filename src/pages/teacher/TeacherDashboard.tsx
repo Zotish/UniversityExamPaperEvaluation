@@ -79,7 +79,6 @@ export function TeacherDashboard({
     <Shell screen="teacher" go={go} title="Dashboard" breadcrumb="Faculty Workspace">
       <PageHead
         title={`Welcome, ${user?.name || "Faculty"}`}
-        subtitle="Department of Computer Science & Engineering · Stamford University Bangladesh"
         action={
           <Button icon="plus" onClick={() => go("create")}>
             Create Examination
@@ -195,7 +194,6 @@ export function TeacherDashboard({
                 <div className="section-title">
                   <div>
                     <h3>Recent Examinations</h3>
-                    <p>Latest examinations with evaluation progress and workflow status</p>
                   </div>
                   <button onClick={() => go("examinations")}>View all →</button>
                 </div>
@@ -275,7 +273,6 @@ export function TeacherDashboard({
                 <div className="section-title">
                   <div>
                     <h3>Recent Activity</h3>
-                    <p>Audited academic actions across examinations and grading</p>
                   </div>
                 </div>
                 <div className="activity-list">
@@ -302,7 +299,6 @@ export function TeacherDashboard({
               <div className="section-title">
                 <div>
                   <h3>Pending Work</h3>
-                  <p>Items requiring faculty attention</p>
                 </div>
                 <span className="count">{data.pendingWork.length}</span>
               </div>

@@ -257,13 +257,12 @@ export function statusTone(status: string): "green" | "amber" | "blue" | "neutra
 export function Metric({
   label,
   value,
-  icon,
   note,
   onClick,
 }: {
   label: string;
   value: string | number;
-  icon: string;
+  icon?: string;
   note?: string;
   onClick?: () => void;
 }) {
@@ -284,9 +283,6 @@ export function Metric({
           : undefined
       }
     >
-      <span className="metric-icon">
-        <Icon name={icon} />
-      </span>
       <div>
         <p>{label}</p>
         <strong>{value}</strong>

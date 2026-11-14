@@ -147,7 +147,6 @@ export function StudentResultsPage({
               <div className="section-title">
                 <div>
                   <h3>Question-wise Marks</h3>
-                  <p>Select any question to inspect your answer sheet, reference answer, and feedback</p>
                 </div>
               </div>
               <div className="question-results">
