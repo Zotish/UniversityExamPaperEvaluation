@@ -163,9 +163,6 @@ export function SettingsPage({
               </Badge>
             </div>
           </div>
-          <p style={{ fontSize: 11, color: "#64748b", marginTop: 12, lineHeight: 1.5 }}>
-            {ocr?.configurationNote}
-          </p>
         </section>
       </div>
 

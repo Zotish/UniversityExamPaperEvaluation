@@ -170,10 +170,7 @@ export function ReportsPage({
 
           <div className="analytics-grid">
             <section className="card section-card" style={{ padding: 20 }}>
-              <h3 style={{ fontSize: 15, marginBottom: 4 }}>Marks Distribution</h3>
-              <p style={{ fontSize: 11, color: "#64748b", marginBottom: 18 }}>
-                Approved student counts across percentage bands
-              </p>
+              <h3 style={{ fontSize: 15, marginBottom: 16 }}>Marks Distribution</h3>
               <div className="bar-chart">
                 {analytics.distribution.map((b) => (
                   <div className="bar-col" key={b.label}>
@@ -191,10 +188,7 @@ export function ReportsPage({
             </section>
 
             <section className="card section-card" style={{ padding: 20 }}>
-              <h3 style={{ fontSize: 15, marginBottom: 4 }}>Question-wise Average Performance</h3>
-              <p style={{ fontSize: 11, color: "#64748b", marginBottom: 16 }}>
-                Mean score and commonly missed criteria per question
-              </p>
+              <h3 style={{ fontSize: 15, marginBottom: 16 }}>Question-wise Average Performance</h3>
               <div className="q-avg-list">
                 {analytics.questionAverages.map((q) => (
                   <div className="q-avg-row" key={q.questionNumber}>
@@ -221,11 +215,7 @@ export function ReportsPage({
           </div>
 
           <section className="card section-card" style={{ marginTop: 18, padding: 20 }}>
-            <h3 style={{ fontSize: 15, marginBottom: 4 }}>Official Academic Exports</h3>
-            <p style={{ fontSize: 11, color: "#64748b", marginBottom: 16 }}>
-              Download verified result sheets and question-level breakdowns for{" "}
-              <strong>{analytics.exam.title}</strong>.
-            </p>
+            <h3 style={{ fontSize: 15, marginBottom: 16 }}>Official Academic Exports</h3>
             <div className="export-buttons-grid">
               <Button
                 kind="secondary"

@@ -157,7 +157,6 @@ export function MistakeAnalysisPage({
             <div className="section-title">
               <div>
                 <h3>Topic-wise Improvement Areas</h3>
-                <p>Based strictly on missed rubric concepts and approved teacher feedback</p>
               </div>
             </div>
 
@@ -208,7 +207,6 @@ export function MistakeAnalysisPage({
             <div className="section-title">
               <div>
                 <h3>Question-wise Mistake Summary</h3>
-                <p>Click any question to inspect your original sheet and reference answer</p>
               </div>
             </div>
             <div className="table-wrap">

@@ -148,14 +148,12 @@ export function ProcessingPage({
             {ocrInfo && (
               <div className="capability-box">
                 <strong>OCR Provider: {ocrInfo.providerName}</strong>
-                <p>{ocrInfo.configurationNote}</p>
               </div>
             )}
 
             {aiInfo && (
               <div className="capability-box" style={{ marginTop: 10 }}>
                 <strong>Evaluation Engine: {aiInfo.providerName}</strong>
-                <p>{aiInfo.configurationNote}</p>
               </div>
             )}
 

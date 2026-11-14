@@ -320,10 +320,6 @@ export function AnswerKeyPage({
               <div className="upload-head-row">
                 <div>
                   <h3>Official Answer Key Document</h3>
-                  <p>
-                    Upload a PDF or scanned image (JPG, PNG). Selectable PDF text is extracted
-                    automatically.
-                  </p>
                 </div>
                 {exam.answer_key_verified ? (
                   <Badge tone="green">Verified Key</Badge>

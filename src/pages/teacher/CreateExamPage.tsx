@@ -133,7 +133,6 @@ export function CreateExamPage({
           <ProgressSteps current={1} />
           <div className="form-section">
             <h3>Examination details</h3>
-            <p>Enter the official metadata for this university examination.</p>
 
             <div className="form-grid">
               <label>
