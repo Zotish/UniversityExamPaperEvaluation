@@ -200,14 +200,6 @@ export function CreateExamPage({
                 />
               </label>
             </div>
-
-            <div className="validation-ok">
-              <Icon name="check" />
-              <span>
-                Total question marks will be validated against the configured examination total (
-                {totalMarks || 0} marks) before the answer key can be verified.
-              </span>
-            </div>
           </div>
 
           <div className="form-actions">
