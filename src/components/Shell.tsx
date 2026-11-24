@@ -171,8 +171,6 @@ export function Shell({
             </div>
           </div>
 
-          {headerCenter && <div className="topbar-center">{headerCenter}</div>}
-
           <div className="top-actions">
             {onSearchChange && (
               <div className="topbar-search">
@@ -186,6 +184,8 @@ export function Shell({
                 />
               </div>
             )}
+
+            {headerCenter && <div className="topbar-header-action">{headerCenter}</div>}
 
             <div className="popover-anchor">
               <button
