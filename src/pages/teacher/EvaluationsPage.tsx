@@ -704,10 +704,7 @@ export function EvaluationsPage({
                         key={row.id}
                         style={{
                           borderBottom: "1px solid #f1f5f9",
-                          transition: "background 0.15s ease",
                         }}
-                        onMouseEnter={(e) => (e.currentTarget.style.background = "#f8fafc")}
-                        onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
                       >
                         {/* Roll No */}
                         <td
