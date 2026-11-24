@@ -759,7 +759,7 @@ export function EvaluationsPage({
                               borderRadius: 6,
                               fontSize: 12,
                               fontWeight: 700,
-                              background: row.grade === "F" ? "#fff1f2" : "#eff6ff",
+                              background: "transparent",
                               color: row.grade === "F" ? "#e11d48" : "#2563eb",
                               border:
                                 row.grade === "F" ? "1px solid #fecdd3" : "1px solid #dbeafe",
@@ -780,7 +780,7 @@ export function EvaluationsPage({
                               borderRadius: 6,
                               fontSize: 12,
                               fontWeight: 600,
-                              background: row.confidence >= 90 ? "#f0fdf4" : "#fefce8",
+                              background: "transparent",
                               color: row.confidence >= 90 ? "#16a34a" : "#ca8a04",
                               border:
                                 row.confidence >= 90 ? "1px solid #bbf7d0" : "1px solid #fef08a",
@@ -802,7 +802,7 @@ export function EvaluationsPage({
                                 borderRadius: 6,
                                 fontSize: 11,
                                 fontWeight: 600,
-                                background: "#fdf2f8",
+                                background: "transparent",
                                 color: "#be185d",
                                 border: "1px solid #fbcfe8",
                               }}
@@ -828,7 +828,7 @@ export function EvaluationsPage({
                               fontWeight: 800,
                               letterSpacing: "0.04em",
                               textTransform: "uppercase",
-                              background: "#f0fdf4",
+                              background: "transparent",
                               color: "#16a34a",
                               border: "1px solid #bbf7d0",
                             }}
