@@ -118,7 +118,7 @@ function EvalDeskRouter() {
     key: <AnswerKeyPage examId={navState.examId} go={go} notify={notify} />,
     sheets: <UploadSheetsPage examId={navState.examId} go={go} notify={notify} />,
     processing: <ProcessingPage examId={navState.examId} go={go} notify={notify} />,
-    evaluations: <EvaluationsPage examId={navState.examId} go={go} />,
+    evaluations: <EvaluationsPage examId={navState.examId} go={go} notify={notify} />,
     review: (
       <GradingWorkspacePage
         examId={navState.examId}
