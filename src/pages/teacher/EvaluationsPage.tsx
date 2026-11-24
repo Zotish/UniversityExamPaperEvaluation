@@ -354,17 +354,6 @@ export function EvaluationsPage({
               }}
             >
               <div>
-                <div
-                  style={{
-                    fontSize: 12,
-                    fontWeight: 700,
-                    color: "#2563eb",
-                    letterSpacing: "0.02em",
-                    marginBottom: 4,
-                  }}
-                >
-                  {courseCode} • Total Enrolled: {rows.length}
-                </div>
                 <h1
                   style={{
                     fontSize: 22,
@@ -376,10 +365,6 @@ export function EvaluationsPage({
                 >
                   AI Evaluation Workspace
                 </h1>
-                <p style={{ fontSize: 13, color: "#64748b", marginTop: 4, margin: 0 }}>
-                  Review AI-suggested marks, flag low-confidence submissions, and approve results for
-                  student publication.
-                </p>
               </div>
 
               {/* Action Buttons */}
